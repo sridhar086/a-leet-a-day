@@ -1,4 +1,4 @@
-package com.sridhar.code.library;
+package com.sridhar.code.library.easy;
 
 /*
 Given the head of a singly linked list, reverse the list, and return the reversed list.
