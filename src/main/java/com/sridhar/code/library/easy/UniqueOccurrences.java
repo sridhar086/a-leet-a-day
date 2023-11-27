@@ -1,4 +1,4 @@
-package com.sridhar.code.library;
+package com.sridhar.code.library.easy;
 
 
 import java.util.HashMap;

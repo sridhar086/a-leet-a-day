@@ -1,4 +1,4 @@
-package com.sridhar.code.library.tree;
+package com.sridhar.code.library.easy.tree;
 
 
 

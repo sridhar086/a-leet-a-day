@@ -1,4 +1,4 @@
-package com.sridhar.code.library.tree;
+package com.sridhar.code.library.easy.tree;
 
 /*
 Given the root of a binary tree, return the length of the diameter of the tree.
