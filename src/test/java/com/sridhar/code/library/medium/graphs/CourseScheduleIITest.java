@@ -14,14 +14,13 @@ public class CourseScheduleIITest {
         CourseScheduleII courseScheduleII = new CourseScheduleII();
         int[] output = courseScheduleII.findOrder(4, new int[][]{{1,0},{2,0},{3,1},{3,2}});
         System.out.println(Arrays.toString(output));
-        System.out.println("output");
+        Assertions.assertTrue(Arrays.equals(new int[]{0, 1, 2, 3}, output));
     }
 
     @Test
     void testv1() {
         CourseScheduleII courseScheduleII = new CourseScheduleII();
         int[] output = courseScheduleII.findOrder(2, new int[][]{{0,1}});
-        System.out.println(Arrays.toString(output));
-        System.out.println("output");
+        Assertions.assertTrue(Arrays.equals(new int[]{1, 0}, output));
     }
 }
