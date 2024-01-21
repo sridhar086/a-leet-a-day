@@ -1,4 +1,4 @@
-package com.sridhar.code.library.easy;
+package com.sridhar.code.library.easy.arrays;
 
 import java.util.HashSet;
 
