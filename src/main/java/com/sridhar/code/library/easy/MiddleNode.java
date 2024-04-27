@@ -1,6 +1,8 @@
 package com.sridhar.code.library.easy;
 
 
+import com.sridhar.code.utils.ListNode;
+
 /*
 Given the head of a singly linked list, return the middle node of the linked list.
 

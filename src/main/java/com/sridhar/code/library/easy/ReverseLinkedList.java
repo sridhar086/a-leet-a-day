@@ -31,6 +31,8 @@ Follow up: A linked list can be reversed either iteratively or recursively. Coul
  */
 
 
+import com.sridhar.code.utils.ListNode;
+
 public class ReverseLinkedList {
 
     public ListNode reverseList(ListNode head) {

@@ -31,6 +31,8 @@ The number of nodes in both trees is in the range [0, 2000].
  */
 
 
+import com.sridhar.code.utils.TreeNode;
+
 public class MergeTrees {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
         return recursivelyMerge(root1, root2);

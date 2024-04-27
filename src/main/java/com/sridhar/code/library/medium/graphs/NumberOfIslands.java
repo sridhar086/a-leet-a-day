@@ -1,6 +1,8 @@
 package com.sridhar.code.library.medium.graphs;
 
 
+import com.sridhar.code.utils.Pair;
+
 import java.util.*;
 
 /*
@@ -39,24 +41,6 @@ grid[i][j] is '0' or '1'.
 
  */
 
-
-class Pair<T, P> {
-    T left;
-    P right;
-
-    public T getLeft() {
-        return left;
-    }
-
-    public P getRight() {
-        return right;
-    }
-
-    public Pair(T left, P right) {
-        this.left = left;
-        this.right = right;
-    }
-}
 
 public class NumberOfIslands {
 

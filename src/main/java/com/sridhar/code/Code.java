@@ -1,10 +1,7 @@
 package com.sridhar.code;
 
-import com.sridhar.code.library.easy.tree.TreeNode;
+import com.sridhar.code.utils.TreeNode;
 import com.sridhar.code.library.medium.tree.BinaryTreeBoundary;
-import com.sridhar.code.library.medium.tree.BinaryTreeVerticalOrderTraversal;
-
-import java.util.List;
 
 public class Code {
 

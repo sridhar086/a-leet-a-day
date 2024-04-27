@@ -27,6 +27,8 @@ The number of nodes in the tree is in the range [1, 1000].
 Follow up: Could you solve it both recursively and iteratively?
  */
 
+import com.sridhar.code.utils.TreeNode;
+
 public class SymmetricTree {
 
     public boolean isSymmetric(TreeNode root) {
