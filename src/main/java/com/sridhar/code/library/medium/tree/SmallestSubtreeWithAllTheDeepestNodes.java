@@ -1,6 +1,6 @@
 package com.sridhar.code.library.medium.tree;
 
-import com.sridhar.code.library.easy.tree.TreeNode;
+import com.sridhar.code.utils.TreeNode;
 
 public class SmallestSubtreeWithAllTheDeepestNodes {
 

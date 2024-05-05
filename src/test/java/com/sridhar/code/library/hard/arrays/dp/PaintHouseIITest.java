@@ -1,6 +1,5 @@
 package com.sridhar.code.library.hard.arrays.dp;
 
-import com.sridhar.code.library.hard.dp.PaintHouseII;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

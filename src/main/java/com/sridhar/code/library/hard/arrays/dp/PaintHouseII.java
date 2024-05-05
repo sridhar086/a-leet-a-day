@@ -1,4 +1,4 @@
-package com.sridhar.code.library.hard.dp;
+package com.sridhar.code.library.hard.arrays.dp;
 
 import java.util.Arrays;
 

@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: redis-configmap
+  namespace: atlas
+data:
+  config.yaml: |
+      redis:
+        listen: 127.0.0.1:6379
+        hash: fnv1a_64
+        distribution: ketama
+        auto_eject_hosts: true
+        redis: true
+        timeout: 400
+        server_retry_timeout: 2000
+        server_failure_limit: 1
+        servers:
+         - redis-0.redis:6379:1
+         - redis-1.redis:6379:1
+         - redis-2.redis:6379:1
+
+
+

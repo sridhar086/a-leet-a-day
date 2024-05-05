@@ -1,12 +1,7 @@
 package com.sridhar.code.library.medium.tree;
 
-import com.sridhar.code.library.easy.tree.TreeNode;
-import com.sridhar.code.library.medium.strings.WordBreak;
-import org.junit.jupiter.api.Assertions;
+import com.sridhar.code.utils.TreeNode;
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class SmallestSubtreeWithAllTheDeepestNodesTest {
 

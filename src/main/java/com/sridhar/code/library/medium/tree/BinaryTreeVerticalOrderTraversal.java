@@ -1,11 +1,10 @@
 package com.sridhar.code.library.medium.tree;
 
 
-import com.sridhar.code.library.easy.tree.TreeNode;
+import com.sridhar.code.utils.TreeNode;
 
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /*
 Given the root of a binary tree, return the vertical order traversal of its nodes' values. (i.e., from top to bottom, column by column).

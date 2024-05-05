@@ -1,5 +1,7 @@
 package com.sridhar.code.library.easy.tree;
 
+import com.sridhar.code.utils.TreeNode;
+
 /*
 Given a binary tree, find its minimum depth.
 
