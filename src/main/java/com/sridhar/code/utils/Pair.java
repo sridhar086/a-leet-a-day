@@ -21,9 +21,3 @@ public class Pair<T, P> {
     }
 }
 
-class PairCreator<T, P> {
-
-    public static <T,P> Pair<T,P> of(T left, P right) {
-        return new Pair<>(left, right);
-    }
-}
