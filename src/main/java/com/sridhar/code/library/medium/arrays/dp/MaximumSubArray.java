@@ -1,4 +1,4 @@
-package com.sridhar.code.library.medium.dynamicprogramming;
+package com.sridhar.code.library.medium.arrays.dp;
 
 public class MaximumSubArray {
 
