@@ -4,23 +4,13 @@ public class MaximumSubArray {
 
 
     public int maxSubArray(int[] nums) {
-
-        if(nums.length == 0) {
-            return 0;
+        int maxSum = Integer.MIN_VALUE;
+        int currSum = 0;
+        for (int num : nums) {
+            currSum = Math.max(currSum + num, num);
+            maxSum = Math.max(maxSum, currSum);
         }
-        int curr_sum= nums[0];
-        int max_sum = curr_sum;
-        for(int i=1; i< nums.length; i++) {
-            if(curr_sum+nums[i] > nums[i]) {
-                curr_sum += nums[i];
-            } else {
-                curr_sum = nums[i];
-            }
-            if(curr_sum > max_sum) {
-                max_sum = curr_sum;
-            }
-        }
-        return max_sum;
+        return maxSum == Integer.MIN_VALUE ? 0 : maxSum;
     }
 
     public int maxSubArray2(int[] nums) {
