@@ -36,7 +36,6 @@ All the pairs prerequisites[i] are unique.
  */
 public class CourseSchedule {
 
-
     private boolean dfsCycleSearch(int node, List<List<Integer>> adjacency, boolean[] visited, boolean[] inCurrentSearch) {
 
         if(inCurrentSearch[node]) {

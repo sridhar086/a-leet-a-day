@@ -1,5 +1,8 @@
 package com.sridhar.code.library.acompany.oracle;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 
 /*
 Leet 378.
@@ -37,12 +40,6 @@ Follow up:
 Could you solve the problem with a constant memory (i.e., O(1) memory complexity)?
 Could you solve the problem in O(n) time complexity? The solution may be too advanced for an interview but you may find reading this paper fun.
  */
-
-
-import java.util.Comparator;
-import java.util.Objects;
-import java.util.PriorityQueue;
-
 public class KthSmallestElementFromSortedMatrix {
 
 
@@ -86,7 +83,6 @@ public class KthSmallestElementFromSortedMatrix {
     public int kthSmallest(int[][] matrix, int k) {
 
         PriorityQueue<Element> pq = new PriorityQueue<>(matrix.length, new MyComparator());
-
         int count = 0;
         pq.offer(new Element(0, 0, matrix[0][0]));
         while(!pq.isEmpty()) {
