@@ -1,2 +1,4 @@
-package com.sridhar.code.library.blindpractice;public class asdf {
+package com.sridhar.code.library.blindpractice;
+
+public class asdf {
 }
