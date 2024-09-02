@@ -1,4 +1,4 @@
-package com.sridhar.code.library.amazon;
+package com.sridhar.code.library.acompany.amazon;
 
 
 /*

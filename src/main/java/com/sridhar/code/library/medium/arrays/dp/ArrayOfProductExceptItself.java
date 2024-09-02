@@ -21,7 +21,7 @@ public class ArrayOfProductExceptItself {
                 l[i] = temp;
             } else {
                 l[i] = l[i-1] * temp;
-                temp = temp* nums[i];
+                temp = temp * nums[i];
             }
         }
 

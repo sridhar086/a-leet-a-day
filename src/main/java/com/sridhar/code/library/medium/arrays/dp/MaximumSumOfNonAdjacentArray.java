@@ -2,7 +2,7 @@ package com.sridhar.code.library.medium.arrays.dp;
 
 public class MaximumSumOfNonAdjacentArray {
 
-    // Leet198.
+    // Leet198. House Robber
     // simple non recursive dynamic programming solution.
     public int rob(int[] nums) {
         if(nums.length == 0) {
