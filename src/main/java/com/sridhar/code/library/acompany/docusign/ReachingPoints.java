@@ -62,8 +62,6 @@ public class ReachingPoints {
     (ty - sy) / tx = k
     or
     (ty - sy) % tx = 0
-
-
      */
     public boolean reachingPoints(int sx, int sy, int tx, int ty) {
         if(sx == tx && sy == ty)
