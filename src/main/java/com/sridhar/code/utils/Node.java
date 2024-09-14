@@ -18,4 +18,4 @@ public class Node {
         this.right = right;
         this.next = next;
     }
-};
+}
