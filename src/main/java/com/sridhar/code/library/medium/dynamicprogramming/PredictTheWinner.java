@@ -1,6 +1,6 @@
 package com.sridhar.code.library.medium.dynamicprogramming;
 
-import com.sridhar.code.library.medium.tree.Pair;
+import com.sridhar.code.utils.Pair;
 
 import java.util.Arrays;
 import java.util.HashMap;

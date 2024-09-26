@@ -12,6 +12,10 @@ public class Pair<T, P> {
         return right;
     }
 
+    public void setLeft(T left) { this.left = left; }
+
+    public void setRight(P right) { this.right = right; }
+
     public Pair(T left, P right) {
         this.left = left;
         this.right = right;
